@@ -5,21 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Vamos Contar</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            <p>Início: <input type="number" name="inicio" id="txti"></p>
-            <p>Fim: <input type="number" name="fim" id="txtf"> </p>
-            <p>Passo: <input type="number" name="passo" id="txtp"></p>
-            <p><input id="button" type="button" value="Contar" onclick="contar()"></p>
+            <p>Número: <input type="number" name="numero" id="txtnum"> <input type="button" value="Gerar Tabuada" onclick="calcular()"></p>
         </div>
         <div>
-            <p id="res">Preparando a contagem... </p>
+            <p id="res"></p>
         </div>
     </section>
     <footer>

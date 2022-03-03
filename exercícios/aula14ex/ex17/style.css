@@ -30,18 +30,6 @@ div {
     font-weight: bold;
 }
 
-#button {
-    display: block;
-    margin: auto;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 30px;
-    font-size: 1.5rem;
-    color: white;
-    background-color: dodgerblue;
-    cursor: pointer;
-}
 
 footer {
     color: white;
