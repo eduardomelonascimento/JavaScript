@@ -27,15 +27,16 @@ section {
 }
 
 div {
-    text-align: center;
     font-weight: bold;
 }
 
-section #imagem {
+section #img-receive {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 footer {
