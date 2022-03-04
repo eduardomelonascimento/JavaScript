@@ -30,6 +30,9 @@ div {
     font-weight: bold;
 }
 
+select {
+    margin-left: 10px;
+}
 
 footer {
     color: white;
