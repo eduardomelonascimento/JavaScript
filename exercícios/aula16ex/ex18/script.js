@@ -1,6 +1,6 @@
-let num = document.querySelector('input#fnum')
-let lista = document.querySelector('select#flista')
-let res = document.querySelector('div#res')
+let num = document.querySelector('#fnum')
+let lista = document.querySelector('#flista')
+let res = document.querySelector('res')
 let valores = []
 
 function isnumber(n) {
